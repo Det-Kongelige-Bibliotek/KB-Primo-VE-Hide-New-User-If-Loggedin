@@ -1,6 +1,6 @@
 {
   "author": "Royal Danish library",
-  "description": "Displays a message on the top of the screen, every time there is a new text (other than &nbsp;) in the nui.message.announcement code table, if it hasn't already been dismissed by user.",
+  "description": "Hides the new user button from the top menu of Primo VE if the user is logged in.",
   "devDependencies": {
     "angular": "1.6.3",
     "angular-mocks": "1.6.3",
@@ -20,19 +20,19 @@
     "node": ">=4.2"
   },
   "keywords": [
-    "announcement",
+    "hide-new-user-if-loggedin",
     "primo-explore"
   ],
   "license": "Apache-2.0",
   "main": "dist/index.js",
-  "name": "primo-ve-announcement",
+  "name": "primo-ve-hide-new-user-if-loggedin",
   "optionalDependencies": {
     "eslint": "^6.1.0",
     "eslint-plugin-angular": "^4.0.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Det-Kongelige-Bibliotek/KB-Primo-VE-Announcement.git"
+    "url": "git+https://github.com/Det-Kongelige-Bibliotek/KB-Primo-VE-Hide-New-User-If-Loggedin.git"
   },
   "scripts": {
     "build": "gulp build",
