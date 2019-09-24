@@ -9,7 +9,7 @@
 # Install in Primo VE
 ```bash
 cd MYVIEW
-npm install primo-ve-announcement --save-dev
+npm install primo-ve-hide-new-user-if-loggedin --save-dev
 ```
 
 Add to bottom of `js/main.js`
