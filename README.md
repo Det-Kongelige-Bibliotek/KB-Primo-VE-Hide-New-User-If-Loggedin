@@ -1,4 +1,4 @@
-# KB-Primo-VE-HideNewUserIfLoggedin
+# KB-Primo-VE-Hide-New-User-If-Loggedin
 
 **HideNewUserIfLoggedin service**: Hides the new user button from the top menu of Primo VE if the user is logged in.
 
@@ -9,10 +9,10 @@
 # Install in Primo VE
 ```bash
 cd MYVIEW
-npm install primo-ve-hide-new-user-if-loggedin --save-dev
+npm install kb-primo-ve-hide-new-user-if-loggedin --save-dev
 ```
 
 Add to bottom of `js/main.js`
 ```javascript
-require('primo-ve-hide-new-user-if-loggedin/dist/index.js');
+require('kb-primo-ve-hide-new-user-if-loggedin/dist/index.js');
 ```
