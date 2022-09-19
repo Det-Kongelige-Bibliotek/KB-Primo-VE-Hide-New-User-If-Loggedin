@@ -1,9 +1,9 @@
 class PrmTopNavBarLinksAfterController {
     constructor() {
-        this.isLoggedIn = this.parentCtrl.isLoggedIn;
     };
 
-    $postLink() {
+    $onInit() {
+        this.isLoggedIn = this.parentCtrl.isLoggedIn;
         // Hide new user button if logged in
         if (this.isLoggedIn) {
             angular.element(document).ready(function () {

@@ -1,6 +1,7 @@
 {
   "author": "Royal Danish library",
   "description": "Hides the new user button from the top menu of Primo VE if the user is logged in.",
+  "version": "1.1.0",
   "devDependencies": {
     "angular": "1.8.0",
     "angular-mocks": "1.6.3",
@@ -37,6 +38,5 @@
   "scripts": {
     "build": "gulp build",
     "prepare": "rimraf dist/* && npm run build"
-  },
-  "version": "1.0.6"
+  }
 }
